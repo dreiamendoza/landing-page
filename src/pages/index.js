@@ -96,21 +96,6 @@ class Index extends React.Component {
             <header className="major">
               <h2>Skillset</h2>
             </header>
-            {/* <h4> Languages and scripting: </h4>
-            <p> JavaScript | PHP | Python | Java | C# | HTML &amp; CSS | SASS &amp; SCSS </p>
-
-            <h4> Frameworks:  </h4>
-            <p> AngularJS &amp; Angular | VueJS | ReactJS | Python-Django | J2EE / Spring + Hibernate </p>
-            
-            <h4> Software packages: </h4>
-            <p> SuiteCRM | SugarCRM </p>
-            <p>
-              Right now I am focusing on working with corporate companies. When I get
-              the adequate skills to do collaboration work internationally, I will settle
-              for remote work. I plan to attend tech conferences locally, meet new like-minded people from tech,
-              acquire best practices and standards in the corporate companies I am currently in.
-            </p>
-             */}
             <ul className="statistics">
               <li className="style1">
                 <span className="icon fa-laptop"></span>
@@ -129,6 +114,12 @@ class Index extends React.Component {
                 <strong>Tools</strong> GIT, BitBucket, GitLab, Github, Microsoft TFS
               </li>
             </ul>
+            <p>
+              Right now I am focusing on working with corporate companies. When I get
+              the adequate skills to do collaboration work internationally, I will settle
+              for remote work. I plan to attend tech conferences locally, meet new like-minded people from tech,
+              acquire best practices and standards in the corporate companies I am currently in.
+            </p>
             <footer className="major">
               <ul className="actions">
                 <li><a className="button" href={Resume} target="_blank" rel="noopener noreferrer">Click here to view my resume.</a></li>
