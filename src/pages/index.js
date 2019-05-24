@@ -81,7 +81,7 @@ class Index extends React.Component {
                     href="https://stilldrei.netlify.com"
                     target="_blank"
                     rel="noopener noreferrer"
-                  >My Blog</a></h3>
+                  >stillDREI</a></h3>
                 <p>Blog/journal to document experiences in IT and learnings.</p>
               </li>
               <li>
@@ -96,7 +96,7 @@ class Index extends React.Component {
             <header className="major">
               <h2>Skillset</h2>
             </header>
-            <h4> Languages and scripting: </h4>
+            {/* <h4> Languages and scripting: </h4>
             <p> JavaScript | PHP | Python | Java | C# | HTML &amp; CSS | SASS &amp; SCSS </p>
 
             <h4> Frameworks:  </h4>
@@ -110,12 +110,31 @@ class Index extends React.Component {
               for remote work. I plan to attend tech conferences locally, meet new like-minded people from tech,
               acquire best practices and standards in the corporate companies I am currently in.
             </p>
+             */}
+            <ul className="statistics">
+              <li className="style1">
+                <span className="icon fa-laptop"></span>
+                <strong>Languages &amp; Scripts</strong><p>JavaScript | PHP | Python | Java | C# | HTML &amp; CSS | SASS &amp; SCSS </p>
+              </li>
+              <li className="style2">
+                <span className="icon fa-folder-open-o"></span>
+                <strong>Frameworks</strong><p> AngularJS &amp; Angular | VueJS | ReactJS | Python-Django | J2EE / Spring + Hibernate </p>
+              </li>
+              <li className="style3">
+                <span className="icon fa-folder-o"></span>
+                <strong>Software Packages</strong><p> SuiteCRM | SugarCRM </p>
+              </li>
+              <li className="style4">         
+                <span className="icon fa-code-fork"></span>
+                <strong>Tools</strong> GIT, BitBucket, GitLab, Github, Microsoft TFS
+              </li>
+            </ul>
             <footer className="major">
               <ul className="actions">
                 <li><a className="button" href={Resume} target="_blank" rel="noopener noreferrer">Click here to view my resume.</a></li>
               </ul>
             </footer>
-          </section>
+            </section>
         </div>
 
       </Layout>
