@@ -92,7 +92,7 @@ class Index extends React.Component {
             </ul>
           </section>
 
-          <section id="second" className="main">
+          <section id="second" className="main special">
             <header className="major">
               <h2>Skillset</h2>
             </header>
