@@ -1,36 +1,78 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
-import logo from '../assets/images/logo.svg';
 
 const Footer = (props) => (
     <footer id="footer">
         <section>
-            <h2>Aliquam sed mauris</h2>
-            <p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.</p>
-            <ul className="actions">
-                <li><Link to="/generic" className="button">Learn More</Link></li>
-            </ul>
-        </section>
-        <section>
-            <h2>Etiam feugiat</h2>
+            <h2>Get in touch</h2>
             <dl className="alt">
                 <dt>Address</dt>
-                <dd>1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA</dd>
-                <dt>Phone</dt>
-                <dd>(000) 000-0000 x 0000</dd>
+                <dd>Cebu, Philippines</dd>
                 <dt>Email</dt>
-                <dd><a href="#">information@untitled.tld</a></dd>
+                <dd>andimendozait@gmail.com</dd>
             </dl>
             <ul className="icons">
-                <li><a href="#" className="icon fa-twitter alt"><span className="label">Twitter</span></a></li>
-                <li><a href="#" className="icon fa-facebook alt"><span className="label">Facebook</span></a></li>
-                <li><a href="#" className="icon fa-instagram alt"><span className="label">Instagram</span></a></li>
-                <li><a href="#" className="icon fa-github alt"><span className="label">GitHub</span></a></li>
-                <li><a href="#" className="icon fa-dribbble alt"><span className="label">Dribbble</span></a></li>
+                <li>
+                    <a
+                        href="https://www.twitter.com/dreiamendoza"
+                        className="icon fa-twitter alt"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                    <span className="label">Twitter</span></a>
+                </li>
+                <li>
+                    <a
+                        href="https://www.facebook.com/iamdreimendoza"
+                        className="icon fa-facebook alt"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <span className="label">Facebook</span>
+                    </a>
+                </li>
+                <li>
+                    <a
+                        href="https://www.instagram.com/dreia.mendoza"
+                        className="icon fa-instagram alt"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <span className="label">Instagram</span>
+                    </a>
+                </li>
+                <li>
+                    <a
+                        href="https://www.github.com/dreiamendoza"
+                        className="icon fa-github alt"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <span className="label">GitHub</span>
+                    </a>
+                </li>
+                <li>   
+                    <a
+                        href="http://linkedin.com/in/andrea-veronica-mendoza-5869b6139"
+                        className="icon fa-linkedin alt"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >
+                            <span className="label">Linkedin</span></a>
+                </li>
+                <li>
+                    <a 
+                        href="https://open.spotify.com/user/andimendozait?si=2vibpeZESTCLfy-45VfgIQ"
+                        className="icon fa-spotify alt"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <span className="label">Spotify</span>
+                    </a>
+                </li>
             </ul>
         </section>
-        <p className="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+        <p className="copyright">&copy; by Andrea Veronica Mendoza. Credits to <a href="https://github.com/codebushi/gatsby-starter-stellar">CodeBushi</a>.</p>
     </footer>
 )
 

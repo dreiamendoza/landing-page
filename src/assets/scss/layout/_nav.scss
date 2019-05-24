@@ -42,13 +42,13 @@
 				padding: 0;
 				vertical-align: middle;
 
-				a {
+				p {
+					cursor: pointer;
 					@include vendor('transition', (
 						'font-size #{_duration(transition)} ease'
 					));
 					display: inline-block;
-					height: 2.25em;
-					line-height: 2.25em;
+					line-height: 0;
 					padding: 0 1.25em;
 					border: 0;
 					border-radius: _size(border-radius);
@@ -58,13 +58,13 @@
 						background-color: _palette(invert, border-bg);
 					}
 
-					// &.active {
-					// 	background-color: _palette(invert, bg);
-					// 	box-shadow: none;
-					// }
+					&.active {
+						background-color: _palette(invert, bg);
+						box-shadow: none;
+					}
 				}
 				&.is-active {
-					a {
+					p {
 						background-color: _palette(invert, bg);
 						box-shadow: none;
 					}
