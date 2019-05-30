@@ -48,9 +48,8 @@ class Index extends React.Component {
                 <header className="major">
                   <h2>About</h2>
                 </header>
-                <p>To me, learning is as essential as eating your breakfast.</p>
                 <p>
-                  I am a developer with 2 years of industry experience. I have worked
+                  I am a developer with 2+ years of industry experience based in Cebu, Philippines. I have worked
                   with people in my local country and in the US. Currently, my current
                   focus is front-end web development. I also do development of web
                   APIs. My ultimate career goal is to become a full-stack developer or
