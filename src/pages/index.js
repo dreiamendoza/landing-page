@@ -85,8 +85,8 @@ class Index extends React.Component {
               </li>
               <li>
                 <span className="icon major style3 fa-copy"></span>
-                <h3>G***** (WIP - upcoming)</h3>
-                <p>Upcoming project in development phase.</p>
+                <h3>This Landing Page</h3>
+                <p>In the future, I plan to build a theme on my own to replace this site.</p>
               </li>
             </ul>
           </section>
