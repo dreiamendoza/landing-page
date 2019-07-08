@@ -14,7 +14,7 @@ const Footer = (props) => (
             <ul className="icons">
                 <li>
                     <a
-                        href="https://www.twitter.com/dreiamendoza"
+                        href="https://www.twitter.com/stilldrei"
                         className="icon fa-twitter alt"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -23,7 +23,7 @@ const Footer = (props) => (
                 </li>
                 <li>
                     <a
-                        href="https://www.facebook.com/iamdreimendoza"
+                        href="https://www.facebook.com/stilldrei"
                         className="icon fa-facebook alt"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -33,7 +33,7 @@ const Footer = (props) => (
                 </li>
                 <li>
                     <a
-                        href="https://www.instagram.com/dreia.mendoza"
+                        href="https://www.instagram.com/still_drei"
                         className="icon fa-instagram alt"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -43,7 +43,7 @@ const Footer = (props) => (
                 </li>
                 <li>
                     <a
-                        href="https://www.github.com/dreiamendoza"
+                        href="https://www.github.com/stilldrei"
                         className="icon fa-github alt"
                         target="_blank"
                         rel="noopener noreferrer"
